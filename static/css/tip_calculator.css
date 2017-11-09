@@ -1,0 +1,76 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+.tip {
+  width: 30%;
+  display: block;
+  margin: 10% auto 0 auto;
+  font-size: 1em;
+}
+
+.input {
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  height: 2em;
+}
+
+.option {
+  width: 100%;
+  text-align: center;
+  font-size: 1em;
+}
+
+.wide {
+  width: 100%;
+}
+
+h1, h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.to_left {
+  text-align: left;
+}
+
+.modal {
+  background-color: white;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 1.2em;
+  text-align: center;
+  position: fixed;
+  border-style: solid;
+  border-radius: 25px;
+  border-color: black;
+  width: 400px;
+  height: 175px;
+  left: calc(50% - 200px);
+  top: calc(50% - 150px);
+  box-shadow: 10px 10px 5px #888888;
+  z-index: 2;
+  display: none;
+}
+
+#thanks {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 414px) {
+  h1 {
+    margin-top: 50%;
+  }
+  .tip {
+    width: 60%;
+  }
+}
